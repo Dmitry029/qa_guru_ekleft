@@ -11,6 +11,7 @@ public class OKompaniiPageTest extends BaseTest{
 
     @Test
     @Tag("smoke")
+    @Tag("regression")
     @DisplayName("Проверка заголовка страницы")
     void checkPageTitle() {
         String pageTitle = "О компании";

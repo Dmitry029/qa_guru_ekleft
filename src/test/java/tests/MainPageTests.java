@@ -18,6 +18,7 @@ public class MainPageTests extends BaseTest {
 
     @Test
     @Tag("smoke")
+    @Tag("regression")
     @DisplayName("Проверка количества секций")
     void checkTheNumberOfSectionTest() {
         int sectionsNumber = 9;
