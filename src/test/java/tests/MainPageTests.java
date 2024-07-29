@@ -39,7 +39,7 @@ public class MainPageTests extends BaseTest {
     }
 
     @Tag("regression")
-    @ParameterizedTest(name = "Проверка правильности перехода на страницу {1} после нажатия кнопки {0}")
+    @ParameterizedTest(name = "Проверка правильности перехода на страницу {1} после нажатия кнопки '{1}'")
     @CsvSource({
             "#team, Наша команда",
             "#history, История компании"
